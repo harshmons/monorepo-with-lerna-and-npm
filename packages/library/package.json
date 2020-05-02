@@ -1,0 +1,34 @@
+{
+  "name": "@my-project/library",
+  "version": "1.0.0",
+  "description": "A project contains all the re-usable components",
+  "author": "harshmons <harshverma04111989@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 9009",
+    "build-lib":"babel src --out-dir lib"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@storybook/react": "^5.3.18",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0"
+  }
+}

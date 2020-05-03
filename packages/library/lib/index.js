@@ -15,10 +15,10 @@ Object.defineProperty(exports, "TextField", {
     return _textField["default"];
   }
 });
-Object.defineProperty(exports, "DummyComponent", {
+Object.defineProperty(exports, "Div", {
   enumerable: true,
   get: function get() {
-    return _Dummy["default"];
+    return _div["default"];
   }
 });
 
@@ -26,6 +26,6 @@ var _button = _interopRequireDefault(require("./components/button"));
 
 var _textField = _interopRequireDefault(require("./components/textField"));
 
-var _Dummy = _interopRequireDefault(require("./components/Dummy"));
+var _div = _interopRequireDefault(require("./components/div"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

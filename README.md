@@ -10,5 +10,6 @@ A basic project to show how monorepo works using lerna and npm
 - ##### Install dependencies for packages and create symlinks. Read more [here](https://github.com/lerna/lerna/tree/master/commands/bootstrap#readme)
 `lerna bootstrap` 
 
-For detailed description of the code please refer my blog [Medium Link]
 Open http://localhost:3000 to view it in the browser.
+
+For detailed description of the code please refer my blog https://medium.com/@harshverma04111989/creating-monorepo-using-lerna-dd431d0db072
